@@ -1,4 +1,4 @@
-site_name: MkLorum
+site_name: My MkDocs
 nav:
     - Home: index.md
     - About: about.md
