@@ -2,4 +2,26 @@ site_name: My MkDocs
 nav:
     - Home: index.md
     - About: about.md
-theme: readthedocs
+    - Math: math.md
+
+theme:
+  name: 'material'
+  palette:
+    primary: 'light blue'
+    accent: 'orange'
+
+extra_css:
+    - "//fonts.googleapis.com/earlyaccess/notosansjp.css"
+    - "//fonts.googleapis.com/css?family=Open+Sans:600,800"
+
+extra:
+  font:
+    text: 'Noto Sans JP'
+    code: 'Consolas'
+
+markdown_extensions:
+    - mdx_math:
+        enable_dollar_delimiter: true
+
+extra_javascript: 
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML
