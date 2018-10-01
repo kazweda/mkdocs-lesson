@@ -8,8 +8,8 @@ $$
 \[ \sum\nolimits_{k=1}^5 \]
 
 \[ y =\frac{1+x}{1-x} \]
-\[ y={1+x)/(1-x) \]
-$y={1+x)/(1-x)$
+\[ y=(1+x)/(1-x) \]
+$y=(1+x)/(1-x)$
 
 I $\heartsuit$ you!
 
